@@ -16,7 +16,7 @@ def user_input():
 
 def main():
     sys.stdout.buffer.write(b'Guess the number game\nYou can guess the number with your range of min-max\n')
-    
+
     min, max = user_input()
 
     if int(max) < int(min):
@@ -38,6 +38,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
