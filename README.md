@@ -15,5 +15,5 @@ python3 guess_number.py
 running on docker container
 
 ## require
-- Docker
+- Docker（Option）
 - Python
