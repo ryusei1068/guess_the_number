@@ -29,7 +29,7 @@ def main():
         num = sys.stdin.buffer.readline().decode()
 
         if int(num) == random_num:
-            sys.exit("collect")
+            sys.exit("correct")
         elif int(num) < random_num:
             sys.stdout.buffer.write(b'up\n')
         else:
